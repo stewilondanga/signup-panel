@@ -56,13 +56,13 @@ body {
   color: #333333;
 }
 
-/*.signupFirstNameLbl {
+.signupFirstNameLbl {
   position: absolute;
   top: 45px;
   left: 10px;
 }
 
-#signupFname {
+/*#signupFname {
   position: absolute;
   top: 40px;
   left:180px;
