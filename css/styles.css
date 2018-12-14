@@ -276,22 +276,22 @@ body {
   font-size: 12pt;
 }
 
-/*#msg {
-  background-color:lightyellow;
-  position:absolute;
-  top:345px;
-  left:130px;
-  width:465px;
-  height:78px;
-  font-size:12pt;
-  overflow:scroll;
-  display:none;
-  font-size:10pt;
+#msg {
+  background-color: lightyellow;
+  position: absolute;
+  top: 345px;
+  left: 130px;
+  width: 465px;
+  height: 78px;
+  font-size: 12pt;
+  overflow: scroll;
+  display: none;
+  font-size: 10pt;
   border: solid red 1px;
-  color:#80002a;
+  color: #80002a;
 }
 
-.signUpUl {
+/*.signUpUl {
   margin:0;
 }
 
