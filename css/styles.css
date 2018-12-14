@@ -168,12 +168,13 @@ body {
   top: 18px;
 }
 
-/*#signupColorBox {
-  position:absolute;
-  left:270px;
-  top:18px;
+#signupColorBox {
+  position: absolute;
+  left: 270px;
+  top: 18px;
 }
-.signupSwatch {
+
+/*.signupSwatch {
   width:20px;
   height:20px;
   border:solid white 2px;
