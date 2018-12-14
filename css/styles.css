@@ -187,12 +187,12 @@ body {
   left: 0px;
 }
 
-/*.orange {
+.orange {
   background: linear-gradient(to top right, #ff6600 0%, #ffcc99 100%);
-  left:25px;
+  left: 25px;
 }
 
-.yellow {
+/*.yellow {
   background-color:yellow;
   left:50px;
 }
