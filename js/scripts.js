@@ -251,198 +251,198 @@ function SignUpObj(params) {
 
   } // end of function checkClicks()
 
+
+
+
+  function checkUserTextInputs(evt) {
+    var el = evt.target;
+
+    if (el.id === "signupFname") {
+      signupObj.firstName = el.value;
+      doValidation();
+    } // end if
+
+    if (el.id === "signupLname") {
+      signupObj.lastName = el.value;
+      doValidation();
+    } // end if
+
+    if (el.id === "signupEmail") {
+      signupObj.emailAdr = el.value;
+      doValidation();
+    } // end if
+
+    if (el.id === "signupPassword") {
+      signupObj.password = el.value;
+      doValidation();
+    } // end if
+
+    if (el.id === "signupPasswordReenter") {
+      signupObj.passwordReentered = el.value;
+      doValidation();
+    } // end if
+  } // end of function checkUserTextInputs()
+
   /*
+                function checkChanges(evt) {
+                  var el = evt.target;
 
-
-              function checkUserTextInputs(evt) {
-                var el = evt.target;
-
-                if (el.id === "signupFname") {
-                  signupObj.firstName = el.value;
-                  doValidation();
-                } // end if
-
-                if (el.id === "signupLname") {
-                  signupObj.lastName = el.value;
-                  doValidation();
-                } // end if
-
-                if (el.id === "signupEmail") {
-                  signupObj.emailAdr = el.value;
-                  doValidation();
-                } // end if
-
-                if (el.id === "signupPassword") {
-                  signupObj.password = el.value;
-                  doValidation();
-                } // end if
-
-                if (el.id === "signupPasswordReenter") {
-                  signupObj.passwordReentered = el.value;
-                  doValidation();
-                } // end if
-              } // end of function checkUserTextInputs()
-
-
-              function checkChanges(evt) {
-                var el = evt.target;
-
-                if (el.name==="favTurtle") {
-                  signupObj.favoriteNinjaTurtle = el.value;
-                } // end if
-
-                if (el.id==="signupImAmazing") {
-                  signupObj.imAmazing = el.checked;
-                  var signupYesYouAre = $("#signupYesYouAre")[0];
-
-                  if (signupObj.imAmazing) {
-                    signupYesYouAre.style.display = "block";
-                  } else {
-                    signupYesYouAre.style.display = "none";
-                  }
-                } // end if
-
-                // below happens when user picks option that
-                // the browser provides
-                if (el.id==="signupEmail") {
-             //     signupObj.emailAdr = el.value;
-
-                } // end if
-
-                doValidation();
-              } // end of function
-
-
-
-              function doSignup() {
-                var dta = {};
-                var sMsg;
-                var msg = $("#msg")[0];
-
-                sMsg = doValidation(true);
-
-                if (sMsg.length>0) {
-                  msg.style.display = "block";
-                  return;
-                } // end if
-
-
-                // if we get this far, everything is validated and we can move on
-                dta.firstName = signupObj.firstName;
-                dta.lastName = signupObj.lastName;
-                dta.emailAdr = signupObj.emailAdr;
-                dta.password = signupObj.password;
-                dta.favoriteColor = signupObj.favoriteColor;
-                dta.favoriteNinjaTurtle = signupObj.favoriteNinjaTurtle;
-                dta.imAmazing = signupObj.imAmazing;
-                showSubmissionMsg();
-                signupObj.runWhenFilledOut(dta);
-              } // end of function doSignup()
-
-
-              function isValidEmailAdr(sAdr) {
-                var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                return re.test(sAdr);
-              } // end of function
-
-            function doValidation(iFromButton) {
-              var sMsg = [];
-              var msg = $("#msg")[0];
-              var s=[];
-              var n,nMax;
-              var xyz = signupObj;
-              var sErrMsg;
-              var bFromButton = false;
-
-              if (typeof iFromButton !== "undefined") {
-                bFromButton = iFromButton;
-              } // end if
-
-                if (signupObj.firstName.length < 1) {
-                  sMsg[sMsg.length] = "First Name is a required field";
-                }
-
-                if (signupObj.lastName.length < 2) {
-                  sMsg[sMsg.length] = "The Last Name field needs to be at least 2 characters long";
-                }
-
-              if (bFromButton) {
-                var xyz = signupObj;
-              }
-
-                if (signupObj.emailAdr.length < 1) {
-                  sMsg[sMsg.length] = "Email Address is a required field";
-                } else {
-                  if (!isValidEmailAdr(signupObj.emailAdr)) {
-                    sMsg[sMsg.length] = "Invalid Email Address";
+                  if (el.name==="favTurtle") {
+                    signupObj.favoriteNinjaTurtle = el.value;
                   } // end if
-                } // end if/else
 
-                if (signupObj.password.length < 6) {
-                  sMsg[sMsg.length] = "You must provide a password with 6 characters or more";
-                } else {
-                  if (signupObj.passwordReentered !== signupObj.password) {
-                    sMsg[sMsg.length] = "Password and Reentered Password do not match";
+                  if (el.id==="signupImAmazing") {
+                    signupObj.imAmazing = el.checked;
+                    var signupYesYouAre = $("#signupYesYouAre")[0];
+
+                    if (signupObj.imAmazing) {
+                      signupYesYouAre.style.display = "block";
+                    } else {
+                      signupYesYouAre.style.display = "none";
+                    }
                   } // end if
-                } // end if/else (signupObj.password.length < 7)
 
-                if (signupObj.favoriteColor === "") {
-                  sMsg[sMsg.length] = "You must select your favorite color";
-                } // end if
+                  // below happens when user picks option that
+                  // the browser provides
+                  if (el.id==="signupEmail") {
+               //     signupObj.emailAdr = el.value;
 
-                if (signupObj.favoriteNinjaTurtle === "") {
-                  sMsg[sMsg.length] = "You must select your favorite Ninja Turtle";
-                } // end if
+                  } // end if
+
+                  doValidation();
+                } // end of function
+
+
+
+                function doSignup() {
+                  var dta = {};
+                  var sMsg;
+                  var msg = $("#msg")[0];
+
+                  sMsg = doValidation(true);
 
                   if (sMsg.length>0) {
-                  // Did not pass validation
-                  nMax = sMsg.length;
-                  s[s.length] = "<ul class='signUpUl'>";
-                  for (n=0;n<nMax;n++) {
-                    s[s.length] = "<li>";
-                    s[s.length] = sMsg[n];
-                    s[s.length] = "</li>";
-                  } // next n
-
-                  s[s.length] = "</ul>";
-
-                  sErrMsg = s.join("");
-
-                  if (signupObj.lastErrMsg !==sErrMsg) {
-                    signupObj.lastErrMsg = sErrMsg;
-                    msg.innerHTML = sErrMsg;
+                    msg.style.display = "block";
+                    return;
                   } // end if
-                } else {
-                  signupObj.lastErrMsg = "";
-                  msg.innerHTML = "";
-                  msg.style.display = "none"; // no problems
+
+
+                  // if we get this far, everything is validated and we can move on
+                  dta.firstName = signupObj.firstName;
+                  dta.lastName = signupObj.lastName;
+                  dta.emailAdr = signupObj.emailAdr;
+                  dta.password = signupObj.password;
+                  dta.favoriteColor = signupObj.favoriteColor;
+                  dta.favoriteNinjaTurtle = signupObj.favoriteNinjaTurtle;
+                  dta.imAmazing = signupObj.imAmazing;
+                  showSubmissionMsg();
+                  signupObj.runWhenFilledOut(dta);
+                } // end of function doSignup()
+
+
+                function isValidEmailAdr(sAdr) {
+                  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                  return re.test(sAdr);
+                } // end of function
+
+              function doValidation(iFromButton) {
+                var sMsg = [];
+                var msg = $("#msg")[0];
+                var s=[];
+                var n,nMax;
+                var xyz = signupObj;
+                var sErrMsg;
+                var bFromButton = false;
+
+                if (typeof iFromButton !== "undefined") {
+                  bFromButton = iFromButton;
                 } // end if
 
-              return sMsg;
-            } // end of function doValidation()
+                  if (signupObj.firstName.length < 1) {
+                    sMsg[sMsg.length] = "First Name is a required field";
+                  }
 
-              function showSubmissionMsg() {
-                var s=[];
-                var signupInnerPanel = $("#signupInnerPanel")[0];
+                  if (signupObj.lastName.length < 2) {
+                    sMsg[sMsg.length] = "The Last Name field needs to be at least 2 characters long";
+                  }
 
-                s[s.length] = "<div class='signupSubmissionHdr'>";
-                s[s.length] = "<center>";
-                s[s.length] = sTitle;
-                s[s.length] = " Site Sign Up";
-                s[s.length] = "</center>";
-                s[s.length] = "</div>"; // signupSubmissionHdr
+                if (bFromButton) {
+                  var xyz = signupObj;
+                }
 
-                s[s.length] = "<div class='signupThankyou'>";
-                s[s.length] = "<center>";
-                s[s.length] = "Thank You For Signing Up!";
-                s[s.length] = "</center>";
-                s[s.length] = "</div>"; // signupThankyou
+                  if (signupObj.emailAdr.length < 1) {
+                    sMsg[sMsg.length] = "Email Address is a required field";
+                  } else {
+                    if (!isValidEmailAdr(signupObj.emailAdr)) {
+                      sMsg[sMsg.length] = "Invalid Email Address";
+                    } // end if
+                  } // end if/else
 
-                signupInnerPanel.innerHTML = s.join("");
-              } // end of function
+                  if (signupObj.password.length < 6) {
+                    sMsg[sMsg.length] = "You must provide a password with 6 characters or more";
+                  } else {
+                    if (signupObj.passwordReentered !== signupObj.password) {
+                      sMsg[sMsg.length] = "Password and Reentered Password do not match";
+                    } // end if
+                  } // end if/else (signupObj.password.length < 7)
+
+                  if (signupObj.favoriteColor === "") {
+                    sMsg[sMsg.length] = "You must select your favorite color";
+                  } // end if
+
+                  if (signupObj.favoriteNinjaTurtle === "") {
+                    sMsg[sMsg.length] = "You must select your favorite Ninja Turtle";
+                  } // end if
+
+                    if (sMsg.length>0) {
+                    // Did not pass validation
+                    nMax = sMsg.length;
+                    s[s.length] = "<ul class='signUpUl'>";
+                    for (n=0;n<nMax;n++) {
+                      s[s.length] = "<li>";
+                      s[s.length] = sMsg[n];
+                      s[s.length] = "</li>";
+                    } // next n
+
+                    s[s.length] = "</ul>";
+
+                    sErrMsg = s.join("");
+
+                    if (signupObj.lastErrMsg !==sErrMsg) {
+                      signupObj.lastErrMsg = sErrMsg;
+                      msg.innerHTML = sErrMsg;
+                    } // end if
+                  } else {
+                    signupObj.lastErrMsg = "";
+                    msg.innerHTML = "";
+                    msg.style.display = "none"; // no problems
+                  } // end if
+
+                return sMsg;
+              } // end of function doValidation()
+
+                function showSubmissionMsg() {
+                  var s=[];
+                  var signupInnerPanel = $("#signupInnerPanel")[0];
+
+                  s[s.length] = "<div class='signupSubmissionHdr'>";
+                  s[s.length] = "<center>";
+                  s[s.length] = sTitle;
+                  s[s.length] = " Site Sign Up";
+                  s[s.length] = "</center>";
+                  s[s.length] = "</div>"; // signupSubmissionHdr
+
+                  s[s.length] = "<div class='signupThankyou'>";
+                  s[s.length] = "<center>";
+                  s[s.length] = "Thank You For Signing Up!";
+                  s[s.length] = "</center>";
+                  s[s.length] = "</div>"; // signupThankyou
+
+                  signupInnerPanel.innerHTML = s.join("");
+                } // end of function
 
 
-              return signupObj;
+                return signupObj;
 
 
-            } // end of function SignUpObj()
+              } // end of function SignUpObj()
