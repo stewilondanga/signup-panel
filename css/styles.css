@@ -17,17 +17,17 @@ body {
   height: 1.5em;
 }
 
-/*#results {
-  position:absolute;
-  top:8px;
-  left:630px;
-  background-color:lightyellow;
-  height:438px;
-  width:300px;
-  display:none;
+#results {
+  position: absolute;
+  top: 8px;
+  left: 630px;
+  background-color: lightyellow;
+  height: 438px;
+  width: 300px;
+  display: none;
 }
 
-
+/*
 
 
 
