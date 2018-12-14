@@ -126,17 +126,17 @@ body {
   left: 10px;
 }
 
-/*#signupPasswordReenter {
+#signupPasswordReenter {
   position: absolute;
   top: 160px;
-  left:180px;
-  margin:0;
-  border:solid gray 1px;
-  height:20px;
-  width:200px;
+  left: 180px;
+  margin: 0;
+  border: solid gray 1px;
+  height: 20px;
+  width: 200px;
 }
 
-
+/*
 .signupFavoritesTitle {
   position: absolute;
   left:15px;
