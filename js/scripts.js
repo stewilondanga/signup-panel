@@ -1,13 +1,13 @@
-/*var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+var navigate = (function() {
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
 
-
+/*
 var pageDomain = {};
 pageSetup();
 
@@ -211,7 +211,7 @@ function SignUpObj(params) {
 
        ... or, turn Auto Updating Preview Off!
      */
- //   setTimeout(sGiveFocusCode.join(""),20)
+//   setTimeout(sGiveFocusCode.join(""),20)
 /*  } // end of signupObj.renderForm()
 
 
