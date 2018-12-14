@@ -440,8 +440,8 @@ function SignUpObj(params) {
     signupInnerPanel.innerHTML = s.join("");
   } // end of function
 
-  /*
-                          return signupObj;
+
+  return signupObj;
 
 
-                        } // end of function SignUpObj()
+} // end of function SignUpObj()
