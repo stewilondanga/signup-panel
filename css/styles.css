@@ -266,17 +266,17 @@ body {
   width: 200px;
 }
 
-/*.signupBtn {
-  position:absolute;
-  left:6px;
-  top:362px;
-  width:110px;
-  height:30px;
+.signupBtn {
+  position: absolute;
+  left: 6px;
+  top: 362px;
+  width: 110px;
+  height: 30px;
   font-weight: bold;
-  font-size:12pt;
+  font-size: 12pt;
 }
 
-#msg {
+/*#msg {
   background-color:lightyellow;
   position:absolute;
   top:345px;
