@@ -174,15 +174,15 @@ body {
   top: 18px;
 }
 
-/*.signupSwatch {
-  width:20px;
-  height:20px;
-  border:solid white 2px;
-  cursor:pointer;
-  position:absolute;
+.signupSwatch {
+  width: 20px;
+  height: 20px;
+  border: solid white 2px;
+  cursor: pointer;
+  position: absolute;
 }
 
-.red {
+/*.red {
   background: linear-gradient(to top right, #ff0000 0%, #ff99cc 100%);
   left:0px;
 }
