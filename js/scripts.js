@@ -419,29 +419,29 @@ function SignUpObj(params) {
 
     return sMsg;
   } // end of function doValidation()
+
+  function showSubmissionMsg() {
+    var s = [];
+    var signupInnerPanel = $("#signupInnerPanel")[0];
+
+    s[s.length] = "<div class='signupSubmissionHdr'>";
+    s[s.length] = "<center>";
+    s[s.length] = sTitle;
+    s[s.length] = " Site Sign Up";
+    s[s.length] = "</center>";
+    s[s.length] = "</div>"; // signupSubmissionHdr
+
+    s[s.length] = "<div class='signupThankyou'>";
+    s[s.length] = "<center>";
+    s[s.length] = "Thank You For Signing Up!";
+    s[s.length] = "</center>";
+    s[s.length] = "</div>"; // signupThankyou
+
+    signupInnerPanel.innerHTML = s.join("");
+  } // end of function
+
   /*
-                        function showSubmissionMsg() {
-                          var s=[];
-                          var signupInnerPanel = $("#signupInnerPanel")[0];
-
-                          s[s.length] = "<div class='signupSubmissionHdr'>";
-                          s[s.length] = "<center>";
-                          s[s.length] = sTitle;
-                          s[s.length] = " Site Sign Up";
-                          s[s.length] = "</center>";
-                          s[s.length] = "</div>"; // signupSubmissionHdr
-
-                          s[s.length] = "<div class='signupThankyou'>";
-                          s[s.length] = "<center>";
-                          s[s.length] = "Thank You For Signing Up!";
-                          s[s.length] = "</center>";
-                          s[s.length] = "</div>"; // signupThankyou
-
-                          signupInnerPanel.innerHTML = s.join("");
-                        } // end of function
+                          return signupObj;
 
 
-                        return signupObj;
-
-
-                      } // end of function SignUpObj()
+                        } // end of function SignUpObj()
