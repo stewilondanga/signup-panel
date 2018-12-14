@@ -15,7 +15,7 @@ pageSetup();
 function pageSetup() {
   pageDomain.signup = SignUpObj({
     domElementId: "content",
-    title: "Form Style",
+    title: "Style form",
     runWhenFilledOut: function(dta) {
       // this demo code
       // takes the interesting contents of dta
