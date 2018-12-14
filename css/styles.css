@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,317 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body {
+  background: linear-gradient(to left, #000066 0%, #336699 100%);
+}
+
+#results {
+  position:absolute;
+  top:8px;
+  left:630px;
+  background-color:lightyellow;
+  height:438px;
+  width:300px;
+  display:none;
+}
+
+
+
+
+
+
+
+.signupTextBox {
+  font-size: 13pt;
+}
+
+.signupPanel {
+  background-color:silver;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 13pt;
+  font-weight: normal;
+  width:600px;
+  height:425px;
+  padding:6px;
+  border:solid gray 1px;
+  box-shadow: 8px 9px 5px gray;
+}
+
+.signupInnerPanel {
+  position:relative;
+  top:0px;
+  left:0px;
+}
+
+.signupHdr {
+  font-weight: bold;
+  font-size: 26px;
+  margin-left:9px;
+  color:#333333;
+}
+
+.signupFirstNameLbl {
+  position: absolute;
+  top: 45px;
+  left: 10px;
+}
+
+#signupFname {
+  position: absolute;
+  top: 40px;
+  left:180px;
+  border:solid gray 1px;
+  height:20px;
+  width:200px;
+  margin:0;
+}
+
+.signupLastNameLbl {
+  position: absolute;
+  top: 75px;
+  left: 10px;
+}
+
+#signupLname {
+  position: absolute;
+  top: 70px;
+  left:180px;
+  border:solid gray 1px;
+  height:20px;
+  width:200px;
+  margin:0;
+}
+
+
+
+.signupEmailLbl {
+  position: absolute;
+  top: 105px;
+  left: 10px;
+}
+
+#signupEmail {
+  position: absolute;
+  top: 100px;
+  left:180px;
+  border:solid gray 1px;
+  height:20px;
+  margin:0;
+  width:340px;
+}
+
+.signupPasswordLbl {
+  position: absolute;
+  top: 135px;
+  left: 10px;
+}
+
+#signupPassword {
+  position: absolute;
+  top: 130px;
+  left:180px;
+  border:solid gray 1px;
+  height:20px;
+  margin:0;
+  width:200px;
+}
+
+.signupPasswordReenterLbl {
+  position: absolute;
+  top: 165px;
+  left: 10px;
+}
+
+#signupPasswordReenter {
+  position: absolute;
+  top: 160px;
+  left:180px;
+  margin:0;
+  border:solid gray 1px;
+  height:20px;
+  width:200px;
+}
+
+
+.signupFavoritesTitle {
+  position: absolute;
+  left:15px;
+  top:209px;
+  font-weight:bold;
+  background-color:#999999;
+  color:white;
+  border:solid #595959 1px;
+  z-index:100;
+  width:95px;
+  padding-left:10px;
+  border-radius:6px;
+}
+
+.signupFavoritesPanel {
+  background-color:#e0e0eb;
+  position: absolute;
+  border:solid #3c3c5d 1px;
+  left:5px;
+  top:220px;
+  width:590px;
+  height:90px;
+  box-shadow: 7px 6px 3px gray;
+  border-radius:3px;
+}
+
+.signupFavColor {
+  position:absolute;
+  left:5px;
+  top:18px;
+}
+
+#signupColorBox {
+  position:absolute;
+  left:270px;
+  top:18px;
+}
+.signupSwatch {
+  width:20px;
+  height:20px;
+  border:solid white 2px;
+  cursor:pointer;
+  position:absolute;
+}
+
+.red {
+  background: linear-gradient(to top right, #ff0000 0%, #ff99cc 100%);
+  left:0px;
+}
+
+.orange {
+  background: linear-gradient(to top right, #ff6600 0%, #ffcc99 100%);
+  left:25px;
+}
+
+.yellow {
+  background-color:yellow;
+  left:50px;
+}
+
+.green {
+  background: linear-gradient(to left, #009933 0%, #99ff99 100%);
+  left:75px;
+}
+
+.blue {
+  background: linear-gradient(to bottom left, #0000ff 0%, #99ccff 100%);
+  left:100px;
+}
+
+.purple {
+  background: linear-gradient(to bottom, #6600ff 0%, #99ccff 100%);
+  left:125px;
+}
+
+
+.signupFavTurtle {
+  position:absolute;
+  left:5px;
+  top:55px;
+}
+
+.signupTurtles {
+  position:absolute;
+  left:270px;
+  top:55px;
+  width:300px;
+  height:25px;
+}
+
+.signupLeo {
+  position:absolute;
+  left:0;
+}
+
+.signupMikey {
+  position:absolute;
+  left:60px;
+}
+
+.signupDonnie {
+  position:absolute;
+  left:130px;
+}
+
+.signupRaph {
+  position:absolute;
+  left:220px;
+}
+
+.signupImAmazing {
+  position:absolute;
+  left:6px;
+  top:320px;
+}
+
+.signupYesYouAre {
+  position:absolute;
+  top:323px;
+  left:180px;
+  font-weight:bold;
+  display:none;
+}
+
+.signupImAmazingLbl {
+  position:absolute;
+  top:2px;
+  width:200px;
+}
+
+.signupBtn {
+  position:absolute;
+  left:6px;
+  top:362px;
+  width:110px;
+  height:30px;
+  font-weight: bold;
+  font-size:12pt;
+}
+
+#msg {
+  background-color:lightyellow;
+  position:absolute;
+  top:345px;
+  left:130px;
+  width:465px;
+  height:78px;
+  font-size:12pt;
+  overflow:scroll;
+  display:none;
+  font-size:10pt;
+  border: solid red 1px;
+  color:#80002a;
+}
+
+.signUpUl {
+  margin:0;
+}
+
+.signupSubmissionHdr {
+  position:absolute;
+  width:595px;
+  font-weight: bold;
+  font-size: 26px;
+  left:0;
+  top:40px;
+  color:#333333;
+}
+
+.signupThankyou {
+  position:absolute;
+  width:595px;
+  font-weight: bold;
+  font-size: 18px;
+  left:0;
+  top:200px;
+  color:#333333;
 }
 
 .containers {
