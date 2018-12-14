@@ -241,12 +241,12 @@ body {
   left: 130px;
 }
 
-/*.signupRaph {
-  position:absolute;
-  left:220px;
+.signupRaph {
+  position: absolute;
+  left: 220px;
 }
 
-.signupImAmazing {
+/*.signupImAmazing {
   position:absolute;
   left:6px;
   top:320px;
