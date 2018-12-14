@@ -260,13 +260,13 @@ body {
   display: none;
 }
 
-/*.signupImAmazingLbl {
-  position:absolute;
-  top:2px;
-  width:200px;
+.signupImAmazingLbl {
+  position: absolute;
+  top: 2px;
+  width: 200px;
 }
 
-.signupBtn {
+/*.signupBtn {
   position:absolute;
   left:6px;
   top:362px;
