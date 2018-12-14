@@ -88,15 +88,13 @@ body {
   margin: 0;
 }
 
-/*
-
 .signupEmailLbl {
   position: absolute;
   top: 105px;
   left: 10px;
 }
 
-#signupEmail {
+/*#signupEmail {
   position: absolute;
   top: 100px;
   left:180px;
