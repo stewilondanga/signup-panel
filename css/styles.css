@@ -13,12 +13,11 @@ body {
   height: 2.5em;
 }
 
-/*
 .my_social a img {
   height: 1.5em;
 }
 
-#results {
+/*#results {
   position:absolute;
   top:8px;
   left:630px;
