@@ -182,12 +182,12 @@ body {
   position: absolute;
 }
 
-/*.red {
+.red {
   background: linear-gradient(to top right, #ff0000 0%, #ff99cc 100%);
-  left:0px;
+  left: 0px;
 }
 
-.orange {
+/*.orange {
   background: linear-gradient(to top right, #ff6600 0%, #ffcc99 100%);
   left:25px;
 }
