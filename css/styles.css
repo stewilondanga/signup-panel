@@ -49,14 +49,14 @@ body {
   left: 0px;
 }
 
-/*.signupHdr {
+.signupHdr {
   font-weight: bold;
   font-size: 26px;
-  margin-left:9px;
-  color:#333333;
+  margin-left: 9px;
+  color: #333333;
 }
 
-.signupFirstNameLbl {
+/*.signupFirstNameLbl {
   position: absolute;
   top: 45px;
   left: 10px;
