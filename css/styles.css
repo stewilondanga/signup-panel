@@ -202,12 +202,12 @@ body {
   left: 75px;
 }
 
-/*.blue {
+.blue {
   background: linear-gradient(to bottom left, #0000ff 0%, #99ccff 100%);
-  left:100px;
+  left: 100px;
 }
 
-.purple {
+/*.purple {
   background: linear-gradient(to bottom, #6600ff 0%, #99ccff 100%);
   left:125px;
 }
