@@ -236,12 +236,12 @@ body {
   left: 60px;
 }
 
-/*.signupDonnie {
-  position:absolute;
-  left:130px;
+.signupDonnie {
+  position: absolute;
+  left: 130px;
 }
 
-.signupRaph {
+/*.signupRaph {
   position:absolute;
   left:220px;
 }
