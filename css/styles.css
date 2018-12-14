@@ -305,17 +305,17 @@ body {
   color: #333333;
 }
 
-/*.signupThankyou {
-  position:absolute;
-  width:595px;
+.signupThankyou {
+  position: absolute;
+  width: 595px;
   font-weight: bold;
   font-size: 18px;
-  left:0;
-  top:200px;
-  color:#333333;
+  left: 0;
+  top: 200px;
+  color: #333333;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
