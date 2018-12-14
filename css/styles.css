@@ -62,17 +62,17 @@ body {
   left: 10px;
 }
 
-/*#signupFname {
+#signupFname {
   position: absolute;
   top: 40px;
-  left:180px;
-  border:solid gray 1px;
-  height:20px;
-  width:200px;
-  margin:0;
+  left: 180px;
+  border: solid gray 1px;
+  height: 20px;
+  width: 200px;
+  margin: 0;
 }
 
-.signupLastNameLbl {
+/*.signupLastNameLbl {
   position: absolute;
   top: 75px;
   left: 10px;
