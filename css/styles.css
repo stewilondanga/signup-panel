@@ -252,15 +252,15 @@ body {
   top: 320px;
 }
 
-/*.signupYesYouAre {
-  position:absolute;
-  top:323px;
-  left:180px;
-  font-weight:bold;
-  display:none;
+.signupYesYouAre {
+  position: absolute;
+  top: 323px;
+  left: 180px;
+  font-weight: bold;
+  display: none;
 }
 
-.signupImAmazingLbl {
+/*.signupImAmazingLbl {
   position:absolute;
   top:2px;
   width:200px;
