@@ -231,13 +231,12 @@ body {
   left: 0;
 }
 
-/*
 .signupMikey {
-  position:absolute;
-  left:60px;
+  position: absolute;
+  left: 60px;
 }
 
-.signupDonnie {
+/*.signupDonnie {
   position:absolute;
   left:130px;
 }
