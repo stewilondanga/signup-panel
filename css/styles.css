@@ -197,12 +197,12 @@ body {
   left: 50px;
 }
 
-/*.green {
+.green {
   background: linear-gradient(to left, #009933 0%, #99ff99 100%);
-  left:75px;
+  left: 75px;
 }
 
-.blue {
+/*.blue {
   background: linear-gradient(to bottom left, #0000ff 0%, #99ccff 100%);
   left:100px;
 }
