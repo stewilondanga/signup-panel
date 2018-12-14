@@ -78,17 +78,17 @@ body {
   left: 10px;
 }
 
-/*#signupLname {
+#signupLname {
   position: absolute;
   top: 70px;
-  left:180px;
-  border:solid gray 1px;
-  height:20px;
-  width:200px;
-  margin:0;
+  left: 180px;
+  border: solid gray 1px;
+  height: 20px;
+  width: 200px;
+  margin: 0;
 }
 
-
+/*
 
 .signupEmailLbl {
   position: absolute;
