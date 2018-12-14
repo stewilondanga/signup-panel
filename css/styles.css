@@ -162,13 +162,13 @@ body {
   border-radius: 3px;
 }
 
-/*.signupFavColor {
-  position:absolute;
-  left:5px;
-  top:18px;
+.signupFavColor {
+  position: absolute;
+  left: 5px;
+  top: 18px;
 }
 
-#signupColorBox {
+/*#signupColorBox {
   position:absolute;
   left:270px;
   top:18px;
