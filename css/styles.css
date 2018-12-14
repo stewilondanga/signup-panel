@@ -110,17 +110,17 @@ body {
   left: 10px;
 }
 
-/*#signupPassword {
+#signupPassword {
   position: absolute;
   top: 130px;
-  left:180px;
-  border:solid gray 1px;
-  height:20px;
-  margin:0;
-  width:200px;
+  left: 180px;
+  border: solid gray 1px;
+  height: 20px;
+  margin: 0;
+  width: 200px;
 }
 
-.signupPasswordReenterLbl {
+/*.signupPasswordReenterLbl {
   position: absolute;
   top: 165px;
   left: 10px;
