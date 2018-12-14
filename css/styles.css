@@ -246,13 +246,13 @@ body {
   left: 220px;
 }
 
-/*.signupImAmazing {
-  position:absolute;
-  left:6px;
-  top:320px;
+.signupImAmazing {
+  position: absolute;
+  left: 6px;
+  top: 320px;
 }
 
-.signupYesYouAre {
+/*.signupYesYouAre {
   position:absolute;
   top:323px;
   left:180px;
