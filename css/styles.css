@@ -43,13 +43,13 @@ body {
   box-shadow: 8px 9px 5px gray;
 }
 
-/*.signupInnerPanel {
-  position:relative;
-  top:0px;
-  left:0px;
+.signupInnerPanel {
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
-.signupHdr {
+/*.signupHdr {
   font-weight: bold;
   font-size: 26px;
   margin-left:9px;
