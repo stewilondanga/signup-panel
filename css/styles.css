@@ -104,13 +104,13 @@ body {
   width: 340px;
 }
 
-/*.signupPasswordLbl {
+.signupPasswordLbl {
   position: absolute;
   top: 135px;
   left: 10px;
 }
 
-#signupPassword {
+/*#signupPassword {
   position: absolute;
   top: 130px;
   left:180px;
