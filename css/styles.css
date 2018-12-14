@@ -136,22 +136,21 @@ body {
   width: 200px;
 }
 
-/*
 .signupFavoritesTitle {
   position: absolute;
-  left:15px;
-  top:209px;
-  font-weight:bold;
-  background-color:#999999;
-  color:white;
-  border:solid #595959 1px;
-  z-index:100;
-  width:95px;
-  padding-left:10px;
-  border-radius:6px;
+  left: 15px;
+  top: 209px;
+  font-weight: bold;
+  background-color: #999999;
+  color: white;
+  border: solid #595959 1px;
+  z-index: 100;
+  width: 95px;
+  padding-left: 10px;
+  border-radius: 6px;
 }
 
-.signupFavoritesPanel {
+/*.signupFavoritesPanel {
   background-color:#e0e0eb;
   position: absolute;
   border:solid #3c3c5d 1px;
