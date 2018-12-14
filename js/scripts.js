@@ -11,29 +11,31 @@ var navigate = (function() {
 var pageDomain = {};
 pageSetup();
 
-/*
+
 function pageSetup() {
-  pageDomain.signup = SignUpObj({domElementId:"content",
-                                 title:"Form Style",
-                                runWhenFilledOut:function(dta) {
-                                  // this demo code
-                                  // takes the interesting contents of dta
-                                  // and displays them out...
-                                  var results = $("#results")[0];
-                                  var s =[];
+  pageDomain.signup = SignUpObj({
+    domElementId: "content",
+    title: "Form Style",
+    runWhenFilledOut: function(dta) {
+      // this demo code
+      // takes the interesting contents of dta
+      // and displays them out...
+      var results = $("#results")[0];
+      var s = [];
 
-                                  s[s.length] ="<b>Form Data Filled Out:</b>";
-                                  s[s.length] ="First Name: "+dta.firstName;
-                                  s[s.length] ="Last Name: "+dta.lastName;
-                                  s[s.length] ="Email Adr: "+dta.emailAdr;
-																	s[s.length] ="Password: "+dta.password;
-                                  s[s.length] ="Favorite Color: "+dta.favoriteColor;
-                                  s[s.length] ="Favorite Ninja Turtle: "+dta.favoriteNinjaTurtle;
-                                  s[s.length] ="I'm Amazing Flag: "+dta.imAmazing;
+      s[s.length] = "<b>Form Data Filled Out:</b>";
+      s[s.length] = "First Name: " + dta.firstName;
+      s[s.length] = "Last Name: " + dta.lastName;
+      s[s.length] = "Email Adr: " + dta.emailAdr;
+      s[s.length] = "Password: " + dta.password;
+      s[s.length] = "Favorite Color: " + dta.favoriteColor;
+      s[s.length] = "Favorite Ninja Turtle: " + dta.favoriteNinjaTurtle;
+      s[s.length] = "I'm Amazing Flag: " + dta.imAmazing;
 
-                                  results.innerHTML = s.join("<br>");
-                                  results.style.display = "block";
-                                }});
+      results.innerHTML = s.join("<br>");
+      results.style.display = "block";
+    }
+  });
   pageDomain.signup.renderForm();
 } // end of function pageSetup()
 
