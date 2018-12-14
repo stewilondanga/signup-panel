@@ -7,11 +7,11 @@ var navigate = (function() {
   });
 })();
 
-/*
+
 var pageDomain = {};
 pageSetup();
 
-
+/*
 function pageSetup() {
   pageDomain.signup = SignUpObj({domElementId:"content",
                                  title:"Form Style",
