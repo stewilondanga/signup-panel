@@ -207,12 +207,12 @@ body {
   left: 100px;
 }
 
-/*.purple {
+.purple {
   background: linear-gradient(to bottom, #6600ff 0%, #99ccff 100%);
-  left:125px;
+  left: 125px;
 }
 
-
+/*
 .signupFavTurtle {
   position:absolute;
   left:5px;
