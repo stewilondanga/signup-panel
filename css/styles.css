@@ -295,17 +295,17 @@ body {
   margin: 0;
 }
 
-/*.signupSubmissionHdr {
-  position:absolute;
-  width:595px;
+.signupSubmissionHdr {
+  position: absolute;
+  width: 595px;
   font-weight: bold;
   font-size: 26px;
-  left:0;
-  top:40px;
-  color:#333333;
+  left: 0;
+  top: 40px;
+  color: #333333;
 }
 
-.signupThankyou {
+/*.signupThankyou {
   position:absolute;
   width:595px;
   font-weight: bold;
