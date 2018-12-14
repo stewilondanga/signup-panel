@@ -31,20 +31,19 @@ body {
   font-size: 13pt;
 }
 
-/*
 .signupPanel {
-  background-color:silver;
+  background-color: silver;
   font-family: Roboto, Arial, sans-serif;
   font-size: 13pt;
   font-weight: normal;
-  width:600px;
-  height:425px;
-  padding:6px;
-  border:solid gray 1px;
+  width: 600px;
+  height: 425px;
+  padding: 6px;
+  border: solid gray 1px;
   box-shadow: 8px 9px 5px gray;
 }
 
-.signupInnerPanel {
+/*.signupInnerPanel {
   position:relative;
   top:0px;
   left:0px;
